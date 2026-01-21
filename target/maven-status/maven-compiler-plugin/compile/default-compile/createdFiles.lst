@@ -1,0 +1,5 @@
+com\ecommerce\MainApp.class
+com\ecommerce\model\Produkt.class
+com\ecommerce\util\DBConnection.class
+com\ecommerce\controller\ProduktController.class
+com\ecommerce\dao\ProduktDAO.class

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.ecommerce.controller.ProduktController">
+
+    <top>
+        <VBox spacing="10" style="-fx-padding: 10;">
+            <Label text="Neues Produkt"/>
+
+            <HBox spacing="10">
+                <TextField fx:id="nameField" promptText="Name"/>
+                <TextField fx:id="preisField" promptText="Preis"/>
+                <TextField fx:id="stockField" promptText="Stock"/>
+                <TextField fx:id="kategorieField" promptText="Kategorie"/>
+
+                <Button text="Add" onAction="#handleAddProdukt"/>
+                <Button text="Delete" onAction="#handleDeleteProdukt"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <TableView fx:id="produktTable">
+            <columns>
+                <TableColumn fx:id="idColumn" text="ID"/>
+                <TableColumn fx:id="nameColumn" text="Name"/>
+                <TableColumn fx:id="preisColumn" text="Preis"/>
+                <TableColumn fx:id="lagerbestandColumn" text="Stock"/>
+                <TableColumn fx:id="kategorieColumn" text="Kategorie"/>
+            </columns>
+        </TableView>
+    </center>
+
+</BorderPane>
