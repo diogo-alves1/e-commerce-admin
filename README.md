@@ -9,6 +9,14 @@ Die Architektur folgt dem **MVC-Prinzip (Model-View-Controller)**.
 
 ---
 
+## 📄 Dokumentation
+
+Die vollständige Projektdokumentation ist als PDF verfügbar:
+
+➡️ [Projektdokumentation.pdf](documentation/Projektdokumentation.pdf)
+
+---
+
 ## Verwendete Technologien
 - Java 21
 - JavaFX
